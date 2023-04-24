@@ -1,3 +1,4 @@
 @tailwind base;
 @tailwind components;
+@import url(./style/font.css);
 @tailwind utilities;
