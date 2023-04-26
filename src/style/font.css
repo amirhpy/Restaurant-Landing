@@ -7,3 +7,8 @@
     font-family: 'noto-semibold';
     src: url('../assets/fonts/NotoSans-SemiBold.ttf');
 }
+
+@font-face {
+    font-family: 'noto-regular';
+    src: url('../assets/fonts/NotoSans-Regular.ttf');
+}

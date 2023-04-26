@@ -4,10 +4,18 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    colors: {
+      'cream': ['#F8D7A4'],
+      'charleston': ['#232730'],
+      'brown': ['#A55C30'],
+      'navy': ['#19314B'],
+      'lightbrown': ['#C7763E'],
+    },
     extend: {
       fontFamily: {
         'lora': ['lora-regular'],
-        'noto': ['noto-semibold']
+        'notoSemibold': ['noto-semibold'],
+        'notoRegular': ['noto-regular']
       }
     },
   },
