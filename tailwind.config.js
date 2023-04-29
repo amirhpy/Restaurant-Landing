@@ -5,17 +5,20 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'cream': ['#F8D7A4'],
-      'charleston': ['#232730'],
-      'brown': ['#A55C30'],
-      'navy': ['#19314B'],
-      'lightbrown': ['#C7763E'],
+      'white': ['#FFFFFF'],
+      'cream': ['#b49383'],
+      'transparent': ['transparent'],
     },
     extend: {
+      backgroundImage: {
+        'home': "url('./assets/img/home.jpg')"
+      },
       fontFamily: {
-        'lora': ['lora-regular'],
-        'notoSemibold': ['noto-semibold'],
-        'notoRegular': ['noto-regular']
+        'PT-regular': ['PT-regular'],
+        'PT-bold': ['PT-bold'],
+        'Vazir-bold': ['Vazir-bold'],
+        'Vazir-regular': ['Vazir-regular'],
+        'Vazir-medium': ['Vazir-medium'],
       }
     },
   },

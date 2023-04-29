@@ -2,3 +2,9 @@
 @tailwind components;
 @import url(./style/font.css);
 @tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'PT-regular';
+    }
+}

@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'PT-regular';
+    src: url('../assets/fonts/PTSansNarrow-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'PT-bold';
+    src: url('../assets/fonts/PTSansNarrow-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Vazir-regular';
+    src: url('../assets/fonts/Vazir.ttf');
+}
+
+@font-face {
+    font-family: 'Vazir-bold';
+    src: url('../assets/fonts/Vazir-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Vazir-medium';
+    src: url('../assets/fonts/Vazir-Medium.ttf');
+}
