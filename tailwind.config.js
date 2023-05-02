@@ -19,6 +19,7 @@ module.exports = {
         'Vazir-bold': ['Vazir-bold'],
         'Vazir-regular': ['Vazir-regular'],
         'Vazir-medium': ['Vazir-medium'],
+        'Nastaliq': ['Nastaliq'],
       }
     },
   },

@@ -7,4 +7,8 @@
     html {
         font-family: 'PT-regular';
     }
+
+    body {
+        direction: rtl;
+    }
 }

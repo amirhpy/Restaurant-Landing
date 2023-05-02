@@ -22,3 +22,8 @@
     font-family: 'Vazir-medium';
     src: url('../assets/fonts/Vazir-Medium.ttf');
 }
+
+@font-face {
+    font-family: 'Nastaliq';
+    src: url('../assets/fonts/nastaliq.ttf');
+}
