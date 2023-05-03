@@ -8,6 +8,7 @@ module.exports = {
       'white': ['#FFFFFF'],
       'cream': ['#b49383'],
       'transparent': ['transparent'],
+      'bg-header': ['rgb(0 0 0 / 85%)']
     },
     extend: {
       backgroundImage: {

@@ -22,7 +22,7 @@ const HeaderContent = () => {
         }
     }
     return (
-        <div className={`w-full flex justify-center fixed top-0 ${isScroll ? 'py-[10px]' : 'py-[30px]'}`}>
+        <div className={`w-full duration-300 transition-all ease-in-out z-10 flex justify-center fixed top-0 ${isScroll ? 'py-[10px] bg-bg-header-0' : 'py-[30px]'}`}>
             <div className='text-white-0 flex justify-between items-center w-11/12 xl:w-4/5'>
                 <div className='flex flex-col items-center'>
                     <h2 className='text-[36px]'>Cafe Pars</h2>
@@ -38,7 +38,7 @@ const HeaderContent = () => {
                     <li className='lg:hover:text-cream-0 opacity-100 transition duration-300 cursor-pointer lg:mr-[30px]'>ارتباط با ما</li>
                 </ul>
 
-                <div className='text-[25px] hidden border-2 border-white-0 py-[10px] px-[20px] font-Vazir-medium lg:flex items-center'>
+                <div className='rounded-[10px] text-[25px] hidden border-2 border-white-0 py-[10px] px-[20px] font-Vazir-medium lg:flex items-center'>
                     <a href='https://github.com/amirhpy'>
                         <AiFillGithub />
                     </a>
