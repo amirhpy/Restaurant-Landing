@@ -14,6 +14,9 @@ module.exports = {
       backgroundImage: {
         'home': "url('./assets/img/home.jpg')"
       },
+      boxShadow: {
+        'shadow': '0px 45px 70px rgba(0,0,0,0.24)'
+      },
       fontFamily: {
         'PT-regular': ['PT-regular'],
         'PT-bold': ['PT-bold'],
