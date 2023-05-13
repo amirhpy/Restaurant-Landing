@@ -1,23 +1,23 @@
 import React from 'react';
 
 // image
-import about_1 from '../../assets/img/about-img-1.jpg'
-import about_2 from '../../assets/img/about-img-2.jpg'
+import dishes1 from '../../assets/img/dishes_1.jpg'
+import dishes2 from '../../assets/img/dishes_2.jpg'
+import dishes3 from '../../assets/img/dishes_3.jpg'
 
 const About = () => {
     return (
-        <div className='w-4/5 m-auto flex flex-col xl:flex-row justify-end py-[100px] relative'>
-            <div className='w-full xl:w-[52%] p-[35px] shadow-shadow xl:absolute border-2 top-[20%] right-0 border-cream-0 border-solid font-Vazir-regular bg-white-0'>
-                <h3 className='font-Nastaliq text-[30px] text-cream-0'>لورم ایپسوم</h3>
-                <h2 className='text-[30px]'>لورم ایپسوم متن ساختگی</h2>
-                <p className='text-justify leading-[40px]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال و آینده شناخت فراوان جامعه و متخصصان را می طلبد</p>
-            </div>
-            <div className='flex md:flex-row flex-col justify-end mt-[60px] xl:mt-0'>
-                <div className='w-[100%] md:w-[50%] xl:w-[35%] md:ml-[30px]'>
-                    <img className='w-full' src={about_2} alt='about' />
+        <div className='py-[100px] w-4/5 m-auto'>
+            <div className=''>
+                <div className='w-full md:w-4/5 xl:w-1/2 m-auto text-center'>
+                    <p className='w-[13%] h-[1.7px] bg-cream-0 m-auto'></p>
+                    <h2 className='font-Vazir-medium text-[30px] py-[15px]'>لورم ایپسوم</h2>
+                    <p className='font-Vazir-regular text-[14px] leading-[25px]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
                 </div>
-                <div className='w-[100%] md:w-[50%] xl:w-[35%] mt-[30px] md:mt-0'>
-                    <img className='w-full' src={about_1} alt='about' />
+                <div className='flex flex-col md:flex-row justify-between mt-[50px]'>
+                    <img className='w-full md:w-[31.5%]' src={dishes1} alt='food' />
+                    <img className='w-full md:w-[31.5%] my-[20px] md:my-0' src={dishes2} alt='food' />
+                    <img className='w-full md:w-[31.5%]' src={dishes3} alt='food' />
                 </div>
             </div>
         </div>
