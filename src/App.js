@@ -4,6 +4,7 @@ import React from 'react';
 import Home from './components/Home/Home';
 import HeaderContent from './components/HeaderContent/HeaderContent';
 import About from './components/About/About';
+import FoodPic from './components/FoodPic/FoodPic';
 
 const App = () => {
     return (
@@ -11,6 +12,7 @@ const App = () => {
             <HeaderContent />
             <Home />
             <About />
+            <FoodPic />
         </div>
     );
 };
