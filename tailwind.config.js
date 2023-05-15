@@ -7,12 +7,19 @@ module.exports = {
     colors: {
       'white': ['#FFFFFF'],
       'cream': ['#b49383'],
+      'orange': ['#FDA403'],
+      'darkorange': ['#cb8402'],
       'transparent': ['transparent'],
-      'bg-header': ['rgb(0 0 0 / 85%)']
+      'bg-header': ['rgb(0 0 0 / 85%)'],
+      'bg-component': ['#f8f9fa'],
+      'bg-orange': ['#FDA403'],
+      'bg-darkorange': ['#cb8402'],
+      'bg-lightyellow': ['#fdb44b'],
     },
     extend: {
       backgroundImage: {
-        'home': "url('./assets/img/home.jpg')"
+        'home': "url('./assets/img/home.jpg')",
+        'curve': "url('./assets/img/curve_line.svg')"
       },
       fontFamily: {
         'PT-regular': ['PT-regular'],
