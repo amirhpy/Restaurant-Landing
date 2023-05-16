@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import HeaderContent from './components/HeaderContent/HeaderContent';
 import Services from './components/Services/Services';
 // import About from './components/About/About';
-import SliderMenu from './components/SliderMenu/SliderMenu';
+import OurMenu from './components/OurMenu/OurMenu';
 
 const App = () => {
     return (
@@ -14,7 +14,7 @@ const App = () => {
             <Home />
             <Services />
             {/* <About /> */}
-            <SliderMenu />
+            <OurMenu />
         </div>
     );
 };
