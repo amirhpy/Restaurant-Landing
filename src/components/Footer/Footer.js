@@ -28,8 +28,8 @@ const Footer = () => {
                         <span className='font-Vazir-digit'>0936-293-1516</span>
                     </div>
                     <div className='flex flex-wrap items-center'>
-                        <p className='ml-[10px] bg-darkorange-0 p-[3px_10px_3px_10px] rounded-[10px]'>ایمیل</p>
-                        <span>amirhosseinhphpam@gmail.com</span>
+                        <p className='ml-[10px] bg-darkorange-0 p-[3px_10px_3px_10px] rounded-[10px]'>لینکدین</p>
+                        <span>amirhosseinpour</span>
                     </div>
                 </div>
             </div>

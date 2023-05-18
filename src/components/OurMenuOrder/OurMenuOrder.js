@@ -14,7 +14,7 @@ const OurMenuOrder = () => {
         <div className='flex flex-wrap'>
             {ourMenu.map(order => (
                 <div key={order.id} className='
-                    bg-[#000]
+                    bg-[#232323]
                     text-white-0
                     font-Vazir-regular
                     flex max-w-[100%]
