@@ -24,6 +24,11 @@
 }
 
 @font-face {
+    font-family: 'Vazir-digit';
+    src: url('../assets/fonts/Vazir-Medium-FD-WOL.ttf');
+}
+
+@font-face {
     font-family: 'Nastaliq';
     src: url('../assets/fonts/nastaliq.ttf');
 }

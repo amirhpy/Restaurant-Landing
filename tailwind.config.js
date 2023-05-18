@@ -19,7 +19,13 @@ module.exports = {
     extend: {
       backgroundImage: {
         'home': "url('./assets/img/home.jpg')",
-        'curve': "url('./assets/img/curve_line.svg')"
+        'curve': "url('./assets/img/svg/curve_line.svg')",
+        'order1': "url('./assets/img/ourmenu/img_1.jpg')",
+        'order2': "url('./assets/img/ourmenu/img_2.jpg')",
+        'order3': "url('./assets/img/ourmenu/img_3.jpg')",
+        'order4': "url('./assets/img/ourmenu/img_4.jpg')",
+        'order5': "url('./assets/img/ourmenu/img_5.jpg')",
+        'order6': "url('./assets/img/ourmenu/img_6.jpg')"
       },
       fontFamily: {
         'PT-regular': ['PT-regular'],
@@ -27,7 +33,8 @@ module.exports = {
         'Vazir-bold': ['Vazir-bold'],
         'Vazir-regular': ['Vazir-regular'],
         'Vazir-medium': ['Vazir-medium'],
-        'Nastaliq': ['Nastaliq'],
+        'Vazir-digit': ['Vazir-digit'],
+        'Nastaliq': ['Nastaliq']
       }
     },
   },
