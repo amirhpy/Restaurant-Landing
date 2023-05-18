@@ -6,6 +6,7 @@ import HeaderContent from './components/HeaderContent/HeaderContent';
 import Services from './components/Services/Services';
 import OurMenu from './components/OurMenu/OurMenu';
 
+import Reservations from './components/Reservations/Reservations';
 import Footer from './components/Footer/Footer';
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Home />
             <Services />
             <OurMenu />
+            <Reservations />
             <Footer />
         </div>
     );

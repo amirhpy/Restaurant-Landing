@@ -25,7 +25,8 @@ module.exports = {
         'order3': "url('./assets/img/ourmenu/img_3.jpg')",
         'order4': "url('./assets/img/ourmenu/img_4.jpg')",
         'order5': "url('./assets/img/ourmenu/img_5.jpg')",
-        'order6': "url('./assets/img/ourmenu/img_6.jpg')"
+        'order6': "url('./assets/img/ourmenu/img_6.jpg')",
+        'reservations': "url('./assets/img/reservations.jpg')",
       },
       fontFamily: {
         'PT-regular': ['PT-regular'],
