@@ -23,7 +23,7 @@ const Services = () => {
                                 <service.icon className='w-[40px] h-[40px]' />
                             </div>
                             <h3 className='mt-[35px] mb-[20px] font-Vazir-medium text-[20px]'>لورم ایپسوم</h3>
-                            <p className='font-Vazir-regular text-center text-[15px]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از و مجله در ستون و سطرآنچنان که لازم است</p>
+                            <p className='text-center text-[15px]'>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از و مجله در ستون و سطرآنچنان که لازم است</p>
                         </div>
                     ))}
                 </div>

@@ -16,7 +16,6 @@ const OurMenuOrder = () => {
                 <div key={order.id} className='
                     bg-[#232323]
                     text-white-0
-                    font-Vazir-regular
                     flex max-w-[100%]
                     flex-[0_0_100%]
                     even:flex-row-reverse

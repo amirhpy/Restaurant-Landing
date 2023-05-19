@@ -27,7 +27,7 @@ const RestaurantMenu = () => {
         <div className='w-4/5 m-auto pb-[100px]'>
             <div className='flex flex-col items-center'>
                 <div>
-                    <h3 className='font-Vazir-regular text-[35px]'>فهرست منو با قیمت</h3>
+                    <h3 className='text-[35px]'>فهرست منو با قیمت</h3>
                 </div>
                 <Categories categories={categories} filterMenus={filterMenus} />
                 <RestaurantMenuList allMenu={allMenu} />

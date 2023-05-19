@@ -24,7 +24,7 @@ const HeaderContent = () => {
     return (
         <div className={`w-full duration-300 transition-all ease-in-out z-10 flex justify-center fixed top-0 ${isScroll ? 'py-[10px] bg-bg-header-0' : 'py-[30px]'}`}>
             <div className='text-white-0 flex justify-between items-center w-11/12 xl:w-4/5'>
-                <div className='flex flex-col items-center'>
+                <div className='flex flex-col items-center font-PT-regular'>
                     <h2 className='text-[36px]'>Cafe Pars</h2>
                     <p className='text-[12px] tracking-[8px] uppercase'>restaurant</p>
                 </div>

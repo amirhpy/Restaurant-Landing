@@ -4,7 +4,7 @@ const Categories = ({ categories, filterMenus }) => {
     const [mainCategory, setMainCategory] = useState('همه')
     return (
         <div className='mt-[40px]'>
-            <div className='flex font-Vazir-regular'>
+            <div className='flex'>
                 {categories.map((category, index) => (
                     <button
                         key={index}
