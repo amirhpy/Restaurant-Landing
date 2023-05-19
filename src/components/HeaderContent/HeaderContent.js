@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 // icon
 import { FiMenu } from 'react-icons/fi'
@@ -21,6 +22,7 @@ const HeaderContent = () => {
             setIsScroll(false)
         }
     }
+    
     return (
         <div className={`w-full duration-300 transition-all ease-in-out z-10 flex justify-center fixed top-0 ${isScroll ? 'py-[10px] bg-bg-header-0' : 'py-[30px]'}`}>
             <div className='text-white-0 flex justify-between items-center w-11/12 xl:w-4/5'>
@@ -30,12 +32,52 @@ const HeaderContent = () => {
                 </div>
 
                 <ul className={`w-full justify-center flex flex-col absolute inset-x-0 inset-y-0 bg-darkorange-0 bg-opacity-95 h-screen font-Vazir-bold z-10 items-center transition-all ease-in-out duration-500 lg:static lg:bg-transparent-0 lg:w-auto lg:h-auto lg:z-auto lg:flex-row ${openMenu ? 'top-0' : 'top-[-800px]'}`}>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0'>خانه</li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>درباره ما</li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>منو</li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>تحویل</li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>وبلاگ</li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer lg:mr-[30px]'>ارتباط با ما</li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0'>
+                        <Link
+                            to='home'
+                            smooth={true}
+                        >
+                            خانه
+                        </Link>
+                    </li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>
+                        <Link
+                            to='contents'
+                            smooth={true}
+                            offset={-40}
+                        >
+                            فهرست
+                        </Link>
+                    </li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>
+                        <Link
+                            to='menus'
+                            smooth={true}
+                            offset={-130}
+                        >
+                            منو
+                        </Link>
+                    </li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>
+                        <Link
+                            to='reservations'
+                            smooth={true}
+                            offset={-90}
+                        >
+                            رزرو
+                        </Link>
+                    </li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>
+                        وبلاگ
+                    </li>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer lg:mr-[30px]'>
+                        <Link
+                            to='about'
+                            smooth={true}
+                        >
+                            ارتباط با ما
+                        </Link>
+                    </li>
                 </ul>
 
                 <div className='rounded-[10px] text-[25px] hidden border-2 border-white-0 py-[10px] px-[20px] font-Vazir-medium lg:flex items-center'>

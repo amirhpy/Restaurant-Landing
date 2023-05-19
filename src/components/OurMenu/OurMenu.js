@@ -5,7 +5,7 @@ import OurMenuOrder from '../OurMenuOrder/OurMenuOrder';
 
 const OurMenu = () => {
     return (
-        <div className='py-[100px]'>
+        <div id='contents' className='py-[100px]'>
             <div className='w-full m-auto'>
                 <div className='w-4/5 xl:w-1/2 m-auto text-center'>
                     <h2 className='font-Vazir-medium text-[25px] md:text-[34px] pb-[15px]'>لورم ایپسوم متن</h2>

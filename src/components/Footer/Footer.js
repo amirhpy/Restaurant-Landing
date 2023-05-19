@@ -5,7 +5,7 @@ import { BsFillSuitHeartFill } from 'react-icons/bs'
 
 const Footer = () => {
     return (
-        <div className='bg-[#232323] text-white-0 py-[50px]'>
+        <div id='about' className='bg-[#232323] text-white-0 py-[50px]'>
             <div className='w-4/5 m-auto flex flex-col justify-between items-start lg:items-center lg:flex-row-reverse'>
                 <div className='flex flex-1 flex-col items-center text-white-0 font-PT-regular'>
                     <h2 className='text-[57px]'>Cafe Pars</h2>

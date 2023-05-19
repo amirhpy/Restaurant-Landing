@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="bg-[url('./assets/img/home.jpg')] w-full h-screen bg-center">
+        <div id='home' className="bg-[url('./assets/img/home.jpg')] w-full h-screen bg-center">
             <div className='w-11/12 md:w-8/12 xl:w-7/12 translate-x-[-50%] translate-y-[-50%] absolute left-[50%] top-[50%]'>
                 <div className='flex flex-col items-center text-white-0'>
                     <h1 className='text-[30px] sm:text-[60px] font-Nastaliq'>کافه رستوران پارس</h1>

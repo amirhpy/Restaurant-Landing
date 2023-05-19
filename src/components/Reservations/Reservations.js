@@ -2,7 +2,7 @@ import React from 'react';
 
 const Reservations = () => {
     return (
-        <div className="w-full h-[70vh] relative bg-fixed bg-right bg-no-repeat bg-cover bg-[url('./assets/img/reservations.jpg')]">
+        <div id='reservations' className="w-full h-[70vh] relative bg-fixed bg-right bg-no-repeat bg-cover bg-[url('./assets/img/reservations.jpg')]">
             <div className='w-4/5 text-white-0 flex flex-col items-center translate-x-[-50%] translate-y-[-50%] absolute left-[50%] top-[50%]'>
                 <h3 className='text-[30px]'>همین حالا رزرو کنید</h3>
                 <div className='w-full font-Vazir-digit flex flex-col my-[50px] sm:w-4/5 sm:flex-row lg:w-1/2'>
