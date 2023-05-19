@@ -11,4 +11,8 @@
     body {
         direction: rtl;
     }
+
+    input::-webkit-calendar-picker-indicator {
+        background: transparent;
+    }
 }
