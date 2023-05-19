@@ -17,7 +17,7 @@ const Reservations = () => {
                     </select>
                 </div>
                 <div>
-                    <button className='p-[8px_35px] font-Vazir-medium rounded-[2px] bg-orange-0 text-white-0 hover:bg-darkorange-0'>ثبت سفارش</button>
+                    <button className='p-[8px_35px] font-Vazir-medium rounded-[2px] bg-orange-0 text-white-0 hover:bg-darkorange-0 transition duration-300'>ثبت سفارش</button>
                 </div>
             </div>
         </div>
