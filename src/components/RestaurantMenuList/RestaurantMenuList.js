@@ -2,7 +2,7 @@ import React from 'react';
 
 const RestaurantMenuList = ({ allMenu }) => {
     return (
-        <div className='w-4/5 lg:w-3/5'>
+        <div className='w-full lg:w-3/5'>
             {allMenu.map(item => (
                 <div key={item.id} className='border-b-[1px] border-[#999999] py-[50px]'>
                     <div className='flex justify-between'>
