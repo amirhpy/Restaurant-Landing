@@ -36,6 +36,7 @@ const HeaderContent = () => {
                         <Link
                             to='home'
                             smooth={true}
+                            onClick={() => setOpenMenu(!openMenu)}
                         >
                             خانه
                         </Link>
@@ -45,6 +46,7 @@ const HeaderContent = () => {
                             to='contents'
                             smooth={true}
                             offset={-40}
+                            onClick={() => setOpenMenu(!openMenu)}
                         >
                             فهرست
                         </Link>
@@ -54,6 +56,7 @@ const HeaderContent = () => {
                             to='menus'
                             smooth={true}
                             offset={-130}
+                            onClick={() => setOpenMenu(!openMenu)}
                         >
                             منو
                         </Link>
@@ -63,17 +66,19 @@ const HeaderContent = () => {
                             to='reservations'
                             smooth={true}
                             offset={-90}
+                            onClick={() => setOpenMenu(!openMenu)}
                         >
                             رزرو
                         </Link>
                     </li>
-                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]'>
+                    <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer mb-[15px] lg:mb-0 lg:mr-[30px]' onClick={() => setOpenMenu(!openMenu)}>
                         وبلاگ
                     </li>
                     <li className='lg:hover:text-orange-0 opacity-100 transition duration-300 cursor-pointer lg:mr-[30px]'>
                         <Link
                             to='about'
                             smooth={true}
+                            onClick={() => setOpenMenu(!openMenu)}
                         >
                             ارتباط با ما
                         </Link>
